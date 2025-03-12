@@ -1,0 +1,77 @@
+remote_theme: daviddarnes/alembic@main
+
+exclude:
+- Gemfile
+- Gemfile.lock
+
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+- jekyll-remote-theme
+
+url: 'https://cweamcraft.cpublanc.dev'
+baseurl: ''
+title: 'CweamCraft'
+description: 'A community-ran Minecraft Server'
+permalink: pretty
+logo: "/assets/logos/mikpog@48.webp"
+
+paginate: 5
+paginate_path: announcements/page:num
+
+navigation_header:
+- title: Home
+  url: /
+- title: Modpack
+  url: /modpack/
+- title: Announcements
+  url: /announcements/
+- title: Live Map
+  url: https://map.cpublanc.dev
+- title: Report a Bug
+  url: https://github.com/CPU-Blanc/CweamCraft/issues
+
+navigation_footer:
+- title: Server status
+  url: "https://status.cpublanc.dev/status/cweamcraft"
+- title: View source code
+  url: "https://github.com/CPU-Blanc/CweamCraft"
+
+collections:
+  announcements:
+    title: Announcements
+    output: true
+    description: "Server announcements and updates"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+fonts:
+  preconnect_urls:
+    - https://fonts.gstatic.com
+  font_urls:
+    - https://fonts.googleapis.com/css2?family=Chewy&family=Boogaloo:wght@400;700&display=swap
+
+favicons:
+  32: '/assets/logos/hoja@32.avif'
+  64: '/assets/logos/hoja@64.avif'
+  96: '/assets/logos/hoja@96.avif'
+  128: '/assets/logos/hoja@128.avif'

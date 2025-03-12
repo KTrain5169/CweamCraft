@@ -1,0 +1,12 @@
+---
+feature_image: "assets/logos/banner.png"
+feature_text: |
+  # CweamCraft
+---
+
+Welcome to CweamCraft! A community ran Minecraft server for the [Cweamcat](https://twitch.tv/cweamcat) community.\
+The server runs a whitelist, be sure to post your Minecraft username into the [discord channel](https://discord.gg) in order to be added.
+
+In order to play on the server, **you must have a current version of the community modpack installed**. See [Modpack]({% link modpack.md %}) for detailed installation instructions
+
+Once you are ready, you can join at `cweamcraft.cpublanc.dev`

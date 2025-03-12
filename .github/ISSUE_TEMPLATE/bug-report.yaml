@@ -1,0 +1,41 @@
+name: Bug report
+description: File a bug report
+labels: ["type: bug", "status: needs confirmation"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Make sure to [search for an existing issue report](https://github.com/CPU-Blanc/CweamCraft/issues) before making a new one.
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description of the issue
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Difference between expected and actual behaviour
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to reproduce
+      description: Please provide a complete step-by-step method of reproducing the bug, including steps you may think are obvious. Also please make sure you have followed and verified these steps to reproduce the bug yourself. Being verbose is better than being vague. If reproduction is unreliable, i.e., it only happens sometimes or only happened once, mention that in the reproduction steps.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.

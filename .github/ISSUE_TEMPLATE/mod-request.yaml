@@ -1,0 +1,24 @@
+name: Request Mod
+description: Submit a mod request
+labels: ["area: minecraft", "type: enhancement"]
+
+body:
+  - type: input
+    id: modlink
+    attributes:
+      label: Curseforge link
+      description: A link to the mod on Curseforge.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for request
+      description: Why do you want the mod to be added to the server? What will it bring that is currently missing?
+    validations:
+      required: true
+  - type: textarea
+    id: alt
+    attributes:
+      label: Alternatives
+      description: If this mod cannot be added, what (if any) alternatives would you like in its place.
