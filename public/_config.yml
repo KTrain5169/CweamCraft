@@ -33,6 +33,8 @@ navigation_header:
   url: /modpack/
 - title: Announcements
   url: /announcements/
+- title: Events
+  url: /events/
 - title: Live Map
   url: https://map.cpublanc.dev
 - title: Report a Bug
