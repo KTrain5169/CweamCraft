@@ -10,4 +10,4 @@ This project adheres to [Semantic Versioning](https://semver.org).
 Initial release
 
 [Unreleased]: https://github.com/CPU-Blanc/CweamCraft/compare/v1.0.0...HEAD
-[0.1.0]: https://github.com/CPU-Blanc/CweamCraft/tree/v1.0.0
+[1.0.0]: https://github.com/CPU-Blanc/CweamCraft/tree/v1.0.0
