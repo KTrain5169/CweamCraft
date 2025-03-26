@@ -9,4 +9,4 @@ The server runs a whitelist, be sure to post your Minecraft username into the [d
 
 In order to play on the server, **you must have a current version of the community modpack installed**. See [Modpack]({% link modpack.md %}) for detailed installation instructions
 
-Once you are ready, you can join at `cweamcraft.cpublanc.dev`
+Once you are ready and have been whitelisted, you can join the server at this address: `cweamcraft.cpublanc.dev`
