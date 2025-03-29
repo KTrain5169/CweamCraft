@@ -26,4 +26,4 @@ The server runs a custom modpack. You will need [Prism](https://prismlauncher.or
 {% include figure.html image="/assets/guides/curseforge2.png" %}
 
 ### Packwiz (Automatic Updates)
-Packwiz is a package manager that can be bootstrapped into the Minecraft launcher, to automatically download and update modpacks. Follow the instructions on the [Packwiz website](https://packwiz.infra.link/tutorials/installing/packwiz-installer/), and set the URL to `https://cweamcraft.cpublanc.dev/packdata/client/pack.toml`
+Packwiz is a package manager that can be bootstrapped into the Minecraft launcher, to automatically download and update modpacks. Follow the instructions on the [Packwiz website](https://packwiz.infra.link/tutorials/installing/packwiz-installer/), and set the URL to `https://cweamcraft.net/packdata/client/pack.toml`

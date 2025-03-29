@@ -16,7 +16,7 @@ plugins:
 - jemoji
 - jekyll-remote-theme
 
-url: 'https://cweamcraft.cpublanc.dev'
+url: 'https://cweamcraft.net'
 baseurl: ''
 title: 'CweamCraft'
 description: 'A community-ran Minecraft Server'
@@ -36,7 +36,7 @@ navigation_header:
 - title: Events
   url: /events/
 - title: Live Map
-  url: https://map.cpublanc.dev
+  url: https://map.cweamcraft.net
 - title: Report a Bug
   url: https://github.com/CPU-Blanc/CweamCraft/issues
 
