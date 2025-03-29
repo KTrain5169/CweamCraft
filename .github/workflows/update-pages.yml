@@ -42,6 +42,42 @@ jobs:
           ./packwiz refresh -y --pack-file packdata/server/pack.toml --meta-folder packdata/server/mods
         shell: bash
 
+      - name: build emotes
+        run: |
+          for pack in emotes/*.txt; do
+              pack_name=$(cut -d '/' -f 2 <<< "$pack" | cut -d '.' -f 1)
+              mkdir -p temp/$pack_name/data/emojiful/recipes
+              cat << EOF > temp/$pack_name/pack.mcmeta
+          {
+            "pack": {
+              "pack_format": 6,
+              "description": "Emojiful emojis!"
+            }
+          }
+          EOF
+              cat $pack | while read line; do
+                  name=$(cut -d ';' -f 1 <<< "$line")
+                  link=$(cut -d ';' -f 2 <<< "$line")
+                  cat << EOF > temp/$pack_name/data/emojiful/recipes/$name.json
+          {
+            "category": "$pack_name",
+            "name": "$name",
+            "url": "$link",
+            "type": "emojiful:emoji_recipe"
+          }
+          EOF
+              done
+              cd temp/$pack_name
+              zip -r $pack_name-resource.zip .
+              mv $pack_name-resource.zip ..
+              cd ../..
+              rm -r temp/$pack_name
+              mkdir -p public/datapacks
+              mv temp/$pack_name-resource.zip public/datapacks
+          done
+          rm -r temp
+        shell: bash
+
       - name: get previous tag
         id: previous-tag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
