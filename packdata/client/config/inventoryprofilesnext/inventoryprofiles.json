@@ -1,0 +1,13 @@
+{
+    "ModSettings": {
+        "add_interval_between_clicks": {
+            "value": true
+        },
+        "first_run": false
+    },
+    "AutoRefillSettings": {
+        "allow_break_for_non_enchanted": {
+            "value": true
+        }
+    }
+}

@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 ### Added
 - [Emojiful](https://www.curseforge.com/minecraft/mc-mods/emojiful): Adds various discord emotes to the in-game chat & signs
 - [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight): Adds a lot more ingredients and foods!
+- [Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next): Lots of crafting/inventory QoL changes
 
 ## [1.0.0] - 25-03-23
 Initial release
