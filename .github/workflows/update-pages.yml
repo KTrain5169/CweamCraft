@@ -56,7 +56,7 @@ jobs:
           }
           EOF
               cat $pack | while read line; do
-                  name=$(cut -d ';' -f 1 <<< "$line")
+                  name=$(cut -d ';' -f 1 <<< "$line" | tr '[:upper:]' '[:lower:]' )
                   link=$(cut -d ';' -f 2 <<< "$line")
                   cat << EOF > temp/$pack_name/data/emojiful/recipes/$name.json
           {
