@@ -18,28 +18,28 @@
 	"loopBorderMessage": "You've hit the world border, and have looped around the world!",
 	// The overworld border located at the positive x coordinate.
 	// min: 0, max: 100000
-	"overworldBorderPositiveX": 8000,
+	"overworldBorderPositiveX": 10521,
 	// The overworld border located at the negative x coordinate.
 	// min: -100000, max: 0
-	"overworldBorderNegativeX": -8000,
+	"overworldBorderNegativeX": -9479,
 	// The overworld border located at the positive z coordinate.
 	// min: 0, max: 100000
-	"overworldBorderPositiveZ": 8000,
+	"overworldBorderPositiveZ": 10639,
 	// The overworld border located at the negative z coordinate.
 	// min: -100000, max: 0
-	"overworldBorderNegativeZ": -8000,
+	"overworldBorderNegativeZ": -9361,
 	// The nether border located at the positive x coordinate.
 	// min: 0, max: 100000
-	"netherBorderPositiveX": 1000,
+	"netherBorderPositiveX": 1250,
 	// The nether border located at the negative x coordinate.
 	// min: -100000, max: 0
-	"netherBorderNegativeX": -1000,
+	"netherBorderNegativeX": -1250,
 	// The nether border located at the positive z coordinate.
 	// min: 0, max: 100000
-	"netherBorderPositiveZ": 1000,
+	"netherBorderPositiveZ": 1250,
 	// The nether border located at the negative z coordinate.
 	// min: -100000, max: 0
-	"netherBorderNegativeZ": -1000,
+	"netherBorderNegativeZ": -1250,
 	// The end border located at the positive x coordinate.
 	// min: 0, max: 100000
 	"endBorderPositiveX": 5000,
