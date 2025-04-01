@@ -31,3 +31,5 @@ peek;https://cdn.discordapp.com/emojis/1210070839677157436.png
 PETTHEMILK;https://cdn.discordapp.com/emojis/950603429741477948.gif
 clorp;https://cdn.discordapp.com/emojis/1347032177107533947.png
 bonk;https://cdn.discordapp.com/emojis/1210071358432739378.png
+mlorp;https://cdn.discordapp.com/emojis/1347412250104823868.png
+
