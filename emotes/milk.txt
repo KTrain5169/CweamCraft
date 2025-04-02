@@ -16,7 +16,7 @@ milkTrue;https://cdn.discordapp.com/emojis/1350995970548301906.png
 hii;https://cdn.discordapp.com/emojis/1347671369130967192.gif
 hojamoja;https://cdn.discordapp.com/emojis/1339099324138655764.png
 aww;https://cdn.discordapp.com/emojis/1210068929184276530.png
-laugh;https://cdn.discordapp.com/emojis/1206406428504490064.png
+laugh;https://cdn.discordapp.com/emojis/1206419397237809222.gif
 loading;https://cdn.discordapp.com/emojis/1343704982733586463.png
 business;https://cdn.discordapp.com/emojis/1201608359468617800.png
 pat;https://cdn.discordapp.com/emojis/1206406451044819038.png
@@ -32,4 +32,16 @@ PETTHEMILK;https://cdn.discordapp.com/emojis/950603429741477948.gif
 clorp;https://cdn.discordapp.com/emojis/1347032177107533947.png
 bonk;https://cdn.discordapp.com/emojis/1210071358432739378.png
 mlorp;https://cdn.discordapp.com/emojis/1347412250104823868.png
-
+kissies;https://cdn.discordapp.com/emojis/1246921834654601327.gif
+shy;https://cdn.discordapp.com/emojis/948341831375159306.png
+dank;https://cdn.discordapp.com/emojis/1206406438683938866.png
+lubbers;https://cdn.discordapp.com/emojis/1209717347204464681.png
+bite;https://cdn.discordapp.com/emojis/1206406435169378325.png
+dinkdonk;https://cdn.discordapp.com/emojis/1259189767686455296.gif
+rain;https://cdn.discordapp.com/emojis/1206395047856050266.gif
+yandere;https://cdn.discordapp.com/emojis/1236166875767902269.gif
+think;https://cdn.discordapp.com/emojis/1210070082365952041.png
+mhm;https://cdn.discordapp.com/emojis/1229180417266024589.gif
+flush;https://cdn.discordapp.com/emojis/1228199835216117860.png
+feet1;https://cdn.discordapp.com/emojis/1238310670534185000.png
+feet2;https://cdn.discordapp.com/emojis/1233479313324773547.png
