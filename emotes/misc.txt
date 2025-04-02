@@ -22,3 +22,5 @@ YIPPEE;https://cdn.discordapp.com/emojis/1077431188353978458.gif
 penis;https://cdn.discordapp.com/emojis/1347054636967923746.png
 AAAA;https://cdn.discordapp.com/emojis/1347041369356505169.gif
 waiting;https://cdn.discordapp.com/emojis/1352840680728170576.png
+ICANT;https://cdn.discordapp.com/emojis/964717117071048774.png
+clueless;https://cdn.discordapp.com/emojis/1192692293078093854.png
