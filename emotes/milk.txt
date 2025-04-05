@@ -45,3 +45,4 @@ mhm;https://cdn.discordapp.com/emojis/1229180417266024589.gif
 flush;https://cdn.discordapp.com/emojis/1228199835216117860.png
 feet1;https://cdn.discordapp.com/emojis/1238310670534185000.png
 feet2;https://cdn.discordapp.com/emojis/1233479313324773547.png
+hyperYump;https://cdn.discordapp.com/emojis/1259187699298861238.gif
