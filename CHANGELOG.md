@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
+### Removed
+- Rats: Was causing a lot of problems on the back-end and constantly breaking
 
 ## [1.1.0] - 25-03-25
 ### Added
