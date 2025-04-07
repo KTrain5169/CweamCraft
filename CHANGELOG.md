@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 
 ### Added
 - [Jade](https://www.curseforge.com/minecraft/mc-mods/jade) + [Jade Addons](https://www.curseforge.com/minecraft/mc-mods/jade-addons): Information on blocks you're looking at
+- [Small Ships](https://www.curseforge.com/minecraft/mc-mods/small-ships): Adds multi-crew ships to the game. A quick mode of sea transport, with the option of adding cannons...
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark): Adds a **lot** of features and content. New blocks, player emotes, mobs, and more!
 
 ## [1.1.0] - 25-03-25
