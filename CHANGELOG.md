@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 - Rats: Was causing a lot of problems on the back-end and constantly breaking
 
 ### Added
+- [Jade](https://www.curseforge.com/minecraft/mc-mods/jade) + [Jade Addons](https://www.curseforge.com/minecraft/mc-mods/jade-addons): Information on blocks you're looking at
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark): Adds a **lot** of features and content. New blocks, player emotes, mobs, and more!
 
 ## [1.1.0] - 25-03-25
