@@ -8,6 +8,9 @@ This project adheres to [Semantic Versioning](https://semver.org).
 ### Removed
 - Rats: Was causing a lot of problems on the back-end and constantly breaking
 
+### Added
+- [Quark](https://www.curseforge.com/minecraft/mc-mods/quark): Adds a **lot** of features and content. New blocks, player emotes, mobs, and more!
+
 ## [1.1.0] - 25-03-25
 ### Added
 - [Emojiful](https://www.curseforge.com/minecraft/mc-mods/emojiful): Adds various discord emotes to the in-game chat & signs
