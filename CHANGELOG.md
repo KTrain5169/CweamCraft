@@ -15,7 +15,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 - [Small Ships](https://www.curseforge.com/minecraft/mc-mods/small-ships): Adds multi-crew ships to the game. A quick mode of sea transport, with the option of adding cannons...
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark): Adds a **lot** of features and content. New blocks, player emotes, mobs, and more!
 
-## [1.1.0] - 25-03-25
+## [1.1.0] - 25-03-31
 ### Added
 - [Emojiful](https://www.curseforge.com/minecraft/mc-mods/emojiful): Adds various discord emotes to the in-game chat & signs
 - [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight): Adds a lot more ingredients and foods!
