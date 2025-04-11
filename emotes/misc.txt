@@ -25,3 +25,4 @@ waiting;https://cdn.discordapp.com/emojis/1352840680728170576.png
 ICANT;https://cdn.discordapp.com/emojis/964717117071048774.png
 clueless;https://cdn.discordapp.com/emojis/1192692293078093854.png
 Susge;https://cdn.discordapp.com/emojis/1108642544184721408.png
+clapp;https://cdn.discordapp.com/emojis/1347054083093041173.gif
