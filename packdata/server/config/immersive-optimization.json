@@ -24,7 +24,9 @@
       "minecraft:ender_dragon": false,
       "rats:tamed_rat": false,
       "alexsmobs:bald_eagle": false,
-      "minecraft:warden": false
+      "minecraft:warden": false,
+      "minecraft:tnt": false,
+      "minecraft:tnt_minecart": false
     },
     "version": 2,
     "name": "immersive_optimization"
