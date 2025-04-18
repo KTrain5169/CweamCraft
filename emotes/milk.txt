@@ -48,3 +48,6 @@ feet2;https://cdn.discordapp.com/emojis/1233479313324773547.png
 hyperYump;https://cdn.discordapp.com/emojis/1259187699298861238.gif
 panic;https://cdn.discordapp.com/emojis/1246921886848385094.gif
 point;https://cdn.discordapp.com/emojis/1246922134949724204.gif
+thighs;https://cdn.discordapp.com/emojis/1201608361859358780.png
+milk;https://cdn.discordapp.com/emojis/1347038354251841558.png
+SCHIZO;https://cdn.discordapp.com/emojis/1228158558013493358.gif
