@@ -230,6 +230,12 @@
                 command.warp: true
                 command.spawn: true
                 command.back: true
+                command.ftbranks: false
+        }
+        host: {
+                name: "Host"
+                power: 10000
+                command.ftbranks: true
         }
         builder: {
                 name: "Builder"
