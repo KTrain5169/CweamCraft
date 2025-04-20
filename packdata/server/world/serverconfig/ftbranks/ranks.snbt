@@ -4,6 +4,9 @@
                 power: 1
                 condition: "always_active"
                 command.nickname: false
+                command.warp: false
+                command.spawn: false
+                command.back: false
                 command.worldedit: false
                 "command./": false
                 "command./.args": false
@@ -215,7 +218,7 @@
         vip: {
                 name: "VIP"
                 power: 50
-                ftbranks.name_format: "&bVIP {name}"
+                ftbranks.name_format: "&b{name}"
                 command.nickname: true
         }
         admin: {
@@ -224,6 +227,9 @@
                 condition: "op"
                 ftbranks.name_format: "&2{name}"
                 command.nickname: true
+                command.warp: true
+                command.spawn: true
+                command.back: true
         }
         builder: {
                 name: "Builder"

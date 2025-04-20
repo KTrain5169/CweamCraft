@@ -148,10 +148,10 @@
 			# You can override this with FTB Ranks using ftbessentials.back.cooldown
 			# Default: 30
 			# Range: 0 ~ 604800
-			cooldown: 30
+			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Max size of the teleport history. This limits how many times you can use /back
 			# You can override this with FTB Ranks using ftbessentials.back.max
@@ -251,7 +251,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Warm-up time before /spawn command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
@@ -300,7 +300,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Warm-up time before /warp command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.warp.warmup
