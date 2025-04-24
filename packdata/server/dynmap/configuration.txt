@@ -320,7 +320,7 @@ render-triggers:
   #- blockupdate-with-id
   #- lightingupdate
   - chunkpopulate
-  #- chunkgenerate
+  - chunkgenerate
   #- none
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
