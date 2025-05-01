@@ -173,6 +173,10 @@ file = "dynmap/renderdata/waystones-texture.txt"
 hash = "1772aec634608716789c35c19ece40de8d66f75915cf8bde30fc02a1687f6c64"
 
 [[files]]
+file = "mods/SimpleDiscordLink-Universal-3.3.1-modified.jar"
+hash = "d0176bdfd1f15019d5faa3572ff31824e9e232169dc48ec9f60bc876a89907a9"
+
+[[files]]
 file = "mods/additional-redstone.pw.toml"
 hash = "e6f1378edbd3c14377c457532b91520e3a592fc5443e852ad58bac67872d25c0"
 metafile = true
