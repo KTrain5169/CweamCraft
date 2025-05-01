@@ -75,11 +75,8 @@ jobs:
           unzip packwiz.zip
           chmod +x packwiz
 
-      # TODO: Remove build step once master is updated to the new method
       - name: build packs - master
         run: |
-          for s in $(cat client_mods); do ../packwiz curseforge install $s -y --pack-file packdata/client/pack.toml --meta-folder packdata/client/mods; done
-          for s in $(cat server_mods); do ../packwiz curseforge install $s -y --pack-file packdata/server/pack.toml --meta-folder packdata/server/mods; done
           ../packwiz refresh -y --pack-file packdata/client/pack.toml --meta-folder packdata/client/mods
           ../packwiz refresh -y --pack-file packdata/server/pack.toml --meta-folder packdata/server/mods
         shell: bash

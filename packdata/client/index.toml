@@ -1,2 +1,286 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "config/emojiful-client.toml"
+hash = "d1475ba8120de5c3d68cb93d3751a54811b16a22833421f6b6d548b67028803c"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "d6ef3d7a5517c89721d70bb8c73b9f5e0c988b28001b3a4b0fe41f5335c66548"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "110a879d5c49317efd5d64c153c93ff6016f9c08e61335df981e1cbb5bd79c64"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.core.config"
+hash = "71709b74727d4fe97940e4e23950ad062046a49435cdff87f391c6bfb8d9bea4"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.fullmap.config"
+hash = "201563a051ab6ae8767d10ed4edd20a2ab5269aa13bccfac83bb6b09dee45305"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.minimap.config"
+hash = "57805d53b705df64baaa12f8c60bb44c1da9c91ac00721215fb4a74b1a8b8158"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.minimap2.config"
+hash = "c50f32cb505264a23fddf2b5020df421e3f68e5fe68975873e9e6ea3cff58349"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.topo.config"
+hash = "9e273064e62c540e09d104258a8ea0d88e8dd9e2c2e22605b243f92f33f39847"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.waypoint.config"
+hash = "ef311d5f27219bd7fb76a2c794ae8523efa3b953328455974cc5625121ab0467"
+
+[[files]]
+file = "journeymap/config/5.10/journeymap.webmap.config"
+hash = "629ff218d4305e5262d0eff38ca2261f2033dda46c8e9f8c0d5815bfcf52bd77"
+
+[[files]]
+file = "mods/EBE-1.20-1.20.1-0.9.1B.jar"
+hash = "47017b5a27eef8d3ab3f94e7dbb31f51cda71a052e6b9160966b7e7376920e7b"
+
+[[files]]
+file = "mods/additional-redstone.pw.toml"
+hash = "e6f1378edbd3c14377c457532b91520e3a592fc5443e852ad58bac67872d25c0"
+metafile = true
+
+[[files]]
+file = "mods/alexs-mobs.pw.toml"
+hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
+metafile = true
+
+[[files]]
+file = "mods/alltheleaks.pw.toml"
+hash = "415c1bb058287bd60abb4ffc9210963699259862e32b039ececf3c0b497e968b"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+metafile = true
+
+[[files]]
+file = "mods/chisels-bits.pw.toml"
+hash = "aca009f78e1223d44ba4b9683537d7acdd899b30834e25ab04a3092156725bcf"
+metafile = true
+
+[[files]]
+file = "mods/citadel.pw.toml"
+hash = "ab769d9c60cfba798a0538bad596e374dc9c68a9c59ad83684afc66ce4ebfe7f"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "c22a242d8faa61fd1b25f89707eff35dff301d6a6b35ffd345220e1a5fd9339d"
+metafile = true
+
+[[files]]
+file = "mods/culllessleaves-reforged.pw.toml"
+hash = "e38d187eefae043e892eb6ce932f5360718d02d71f9e8072e8ec38ec0667753b"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+metafile = true
+
+[[files]]
+file = "mods/emojiful.pw.toml"
+hash = "3b8dacbd1cd0e3d849b080473559fd26e4268e396075ad37d0fdf7031ee9dc97"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "acf1aceab8c44817b0c376a99d2019614e0471d3d1a9cb2f40943fec03f05fbf"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "92cbaea9e1183e7d0ae7ebe4c867c1e8225295d7aa23eabf4eac6d6618d18c7d"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "984992f9214094eaab3beb1ae7600c76fc793c27696192f02a8f35ca93803552"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "140a929fda55621de5a03378f7478f587e0a1e912a3e46815fa7305070d2c71c"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "aba5a3408880f30daf3442ff6d0a640e9a78e578d9f0c3a3be175ca12dbc3167"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
+metafile = true
+
+[[files]]
+file = "mods/krypton-reforged.pw.toml"
+hash = "ba2f214504381c53f588e1a52d8be657b47ed53a256b45d623cea2c724748afa"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "ee79f551b7aede4b923fc6df137c4ebbb1dd21eb80a3aaba6da8be93ac5010e7"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
+metafile = true
+
+[[files]]
+file = "mods/macaws-bridges.pw.toml"
+hash = "a4ff567d52fe55984cc0cb93430a4c8f01dc00b14fbd6e25a077dbd179f534fb"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "33af5f73cc7b802cf45b02ef7ec7b9a516919d55ed32a035a4661f33331b5531"
+metafile = true
+
+[[files]]
+file = "mods/macaws-furniture.pw.toml"
+hash = "4494c0ca2e7bcf5dc0193e4dc1aa37a0cb868ed40b002b8729bb16658b423dfb"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "69cee636ccc8f669dd9c157ef44b6072465fe4c35b82965046bcc4647d8b820e"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+hash = "8a5a9886c92d4918b5ffaa9cc5d112a3aed98c042dbe56aadc3e16ec82299ea0"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+hash = "fbb984a9f19934ccba273c93d203a3d9d623b2016b1c8c8af340b717910ca070"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "26302c1c2aa04621bb746c35eff79cb2d35681f21201a4c7e7319da6e1a8cc70"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "02a961f55839346fcef6cca287a27cc1532f0761735a9ff2712a3efe0e4489fe"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
+metafile = true
+
+[[files]]
+file = "mods/quark.pw.toml"
+hash = "4eb683644ee4e38e00b06df946b71ad8fedaa860fcabbd91ec6ceb71c65b8d81"
+metafile = true
+
+[[files]]
+file = "mods/radium-reforged.pw.toml"
+hash = "77fa86d36ada0d178545853f987f9e71128e1833c9c29ae62c436c09bdb31948"
+metafile = true
+
+[[files]]
+file = "mods/railcraft-reborn.pw.toml"
+hash = "0b9cb1dc948413d4c8c16b77307cec4f45c9af9822116beda965c0a15ccf2ac5"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "1f24b43be5efacc252ef6df1d794ea811fd3f33e6f76d6d999e11e28018e553e"
+metafile = true
+
+[[files]]
+file = "mods/skin-layers-3d.pw.toml"
+hash = "b988bc3df72097c41bf4dc6d41e7112ce5671deb54085418f23846f88c22d7d9"
+metafile = true
+
+[[files]]
+file = "mods/small-ships.pw.toml"
+hash = "a2641c9187ec8485df45b2fb25c901f835da50ffe4d9601e4ecc81fc9036eb55"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "3071daca4905386e82defcbbfd743f0e56db87cb13e6b8a0d5ab264774e1b6fc"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "1688cf8e91002b58e23e3040a8b72a728ca76f054d110440d1e91b0d8ec4b16a"
+metafile = true
+
+[[files]]
+file = "mods/toadlib.pw.toml"
+hash = "5c581033ed8e02c6e2c3c35e721f45e8ce865e5c8216c86696bad17ce57cbe57"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "715293ca3b656d3957d5dc974047c3629bb0512307044860100983a433015589"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "79410bb7c19d56a75b324e27d32192e1d239385f77db26140fa54f3974e6b25f"
+metafile = true
+
+[[files]]
+file = "mods/zeta.pw.toml"
+hash = "557d160e4a3d856c6bbe36c39ee7c6cd42824363690b61d5f23bbac153c8edbc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Faithful 32x - 1.20.1.zip"
+hash = "0bf1b8ede0310b43a3009f75b58a4c057e31ac8f08f11b324c4290bec5df28d0"
+
+[[files]]
+file = "resourcepacks/Stay_True_1.20.zip"
+hash = "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.4.zip"
+hash = "13af6c439ef8651916b18d2d658f134b07ce3c2e835d23d37d5d24c5d43284de"
+
+[[files]]
+file = "shaderpacks/photon_v1.1.zip"
+hash = "1228172bfb0ee49de3d2b6268390bac52c9a57dd0aa92c8903e57cf14583203a"
