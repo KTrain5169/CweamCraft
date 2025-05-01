@@ -1,0 +1,197 @@
+name: push-beta
+
+on:
+  push:
+    branches:
+      - release/*
+    paths:
+      - packdata/*
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  get-tags:
+    name: get-tags
+    runs-on: ubuntu-latest
+    outputs:
+      new-tag: ${{ steps.client-version.outputs.version }}
+      clean-tag: ${{ steps.clean-tag.outputs.tag }}
+    steps:
+      - name: checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: get version
+        id: client-version
+        run: |
+          ver=$(cat packdata/client/pack.toml | grep -Ei 'version = "[0-9]+.[0-9]+.[0-9]+"' | grep -oEi [0-9]+.[0-9]+.[0-9]+)
+          echo "version=v$ver" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: get previous tag
+        id: previous-tag
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        with:
+          fallback: v0.0.0
+
+      - name: clean tag
+        id: clean-tag
+        run: |
+          tag=${{ steps.client-version.outputs.version }}
+          echo "tag=${tag:1}" >> $GITHUB_OUTPUT
+        shell: bash
+
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    needs: get-tags
+    steps:
+      - name: checkout beta
+        uses: actions/checkout@v4
+        with:
+          path: beta
+
+      - name: checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master
+
+      - name: setup cache
+        id: packwiz-cache
+        uses: actions/cache@v4
+        with:
+          path: packwiz
+          key: packwiz
+
+      - name: download packwiz
+        if: steps.packwiz-cache.outputs.cache-hit != 'true'
+        run: |
+          curl -L -o packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
+          unzip packwiz.zip
+          chmod +x packwiz
+
+      # TODO: Remove build step once master is updated to the new method
+      - name: build packs - master
+        run: |
+          for s in $(cat client_mods); do ../packwiz curseforge install $s -y --pack-file packdata/client/pack.toml --meta-folder packdata/client/mods; done
+          for s in $(cat server_mods); do ../packwiz curseforge install $s -y --pack-file packdata/server/pack.toml --meta-folder packdata/server/mods; done
+          ../packwiz refresh -y --pack-file packdata/client/pack.toml --meta-folder packdata/client/mods
+          ../packwiz refresh -y --pack-file packdata/server/pack.toml --meta-folder packdata/server/mods
+        shell: bash
+        working-directory: ./master
+
+      - name: refresh packs - beta
+        run: |
+          ../packwiz refresh -y --pack-file packdata/client/pack.toml --meta-folder packdata/client/mods
+          ../packwiz refresh -y --pack-file packdata/server/pack.toml --meta-folder packdata/server/mods
+        shell: bash
+        working-directory: ./beta
+
+      - name: build emotes - master
+        run: |
+          for pack in emotes/*.txt; do
+              pack_name=$(cut -d '/' -f 2 <<< "$pack" | cut -d '.' -f 1)
+              mkdir -p temp/$pack_name/data/emojiful/recipes
+              cat << EOF > temp/$pack_name/pack.mcmeta
+          {
+            "pack": {
+              "pack_format": 6,
+              "description": "Emojiful emojis!"
+            }
+          }
+          EOF
+              cat $pack | while read line; do
+                  name=$(cut -d ';' -f 1 <<< "$line" | tr '[:upper:]' '[:lower:]' )
+                  link=$(cut -d ';' -f 2 <<< "$line")
+                  cat << EOF > temp/$pack_name/data/emojiful/recipes/$name.json
+          {
+            "category": "$pack_name",
+            "name": "$name",
+            "url": "$link",
+            "type": "emojiful:emoji_recipe"
+          }
+          EOF
+              done
+              cd temp/$pack_name
+              zip -r $pack_name-resource.zip .
+              mv $pack_name-resource.zip ..
+              cd ../..
+              rm -r temp/$pack_name
+              mkdir -p public/datapacks
+              mv temp/$pack_name-resource.zip public/datapacks
+          done
+          rm -r temp
+        shell: bash
+        working-directory: ./master
+
+      - name: build emotes - beta
+        run: |
+          for pack in emotes/*.txt; do
+              pack_name=$(cut -d '/' -f 2 <<< "$pack" | cut -d '.' -f 1)
+              mkdir -p temp/$pack_name/data/emojiful/recipes
+              cat << EOF > temp/$pack_name/pack.mcmeta
+          {
+            "pack": {
+              "pack_format": 6,
+              "description": "Emojiful emojis!"
+            }
+          }
+          EOF
+              cat $pack | while read line; do
+                  name=$(cut -d ';' -f 1 <<< "$line" | tr '[:upper:]' '[:lower:]' )
+                  link=$(cut -d ';' -f 2 <<< "$line")
+                  cat << EOF > temp/$pack_name/data/emojiful/recipes/$name.json
+          {
+            "category": "$pack_name",
+            "name": "$name",
+            "url": "$link",
+            "type": "emojiful:emoji_recipe"
+          }
+          EOF
+              done
+              cd temp/$pack_name
+              zip -r $pack_name-resource.zip .
+              mv $pack_name-resource.zip ..
+              cd ../..
+              rm -r temp/$pack_name
+              mkdir -p public/datapacks
+              mv temp/$pack_name-resource.zip public/datapacks
+          done
+          rm -r temp
+        shell: bash
+        working-directory: ./beta
+
+      - name: copy pack data
+        run: |
+          mkdir -p public/packdata
+          mkdir -p public/beta/packdata
+          cp -r packdata public
+          cp -r ../beta/packdata public/beta
+        shell: bash
+        working-directory: ./master
+
+      - name: copy beta emotes
+        run: |
+          mkdir -p public/beta/datapacks
+          mv ../beta/public/datapacks public/beta
+        shell: bash
+        working-directory: ./master
+
+      - name: update web
+        run: |
+          link="https://github.com/${{ github.repository }}/releases"
+          sed -i "s~%LATEST_BUTTON~{% include button.html text=\"CweamCraft-${{ needs.get-tags.outputs.clean-tag }}.zip 📁\" link=\"$link/download/${{ needs.get-tags.outputs.new-tag }}/CweamCraft-${{ needs.get-tags.outputs.clean-tag }}.zip\" %}~" public/modpack.md
+        shell: bash
+        working-directory: ./master
+
+      - name: deploy-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./master/public
+          enable_jekyll: true
