@@ -526,3 +526,7 @@ hash = "cb9df9debbc04baab5ad473f10049b67887b96404c7997983d26c9a98d2c102a"
 [[files]]
 file = "world/serverconfig/railcraft-server.toml"
 hash = "2cd236244ae9ea9eee684608c4ac993b3429807e275ca1f8927974a0166855aa"
+
+[[files]]
+file = "world/serverconfig/waterframes-server.toml"
+hash = "3102be29d8ad68758338adf301220cae7ccd44dac7ab7f5db4dd462e115fe00a"
