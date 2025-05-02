@@ -6,8 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 ### Added
-- [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty): Adds a configurable, togglable overlay to show areas where mobs may spawn at night
+- [Display Delight](https://www.curseforge.com/minecraft/mc-mods/display-delight): Allows placing of all Farmer's Delight items in the world
 - [Friendly Fire](https://www.curseforge.com/minecraft/mc-mods/friendly-fire): A small mod that prevents harming your own pets
+- [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty): Adds a configurable, togglable overlay to show areas where mobs may spawn at night
 
 ## [1.2.0] - 25-04-10
 ### Removed

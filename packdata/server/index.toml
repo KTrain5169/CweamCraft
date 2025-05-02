@@ -265,6 +265,11 @@ hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
 
 [[files]]
+file = "mods/display-delight.pw.toml"
+hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
+metafile = true
+
+[[files]]
 file = "mods/dynmapforge.pw.toml"
 hash = "a9df7957db29bd5934360117797e75baa6fc0a12a9ef99c1bddb66a7ad30a7ce"
 metafile = true
