@@ -64,6 +64,11 @@ hash = "415c1bb058287bd60abb4ffc9210963699259862e32b039ececf3c0b497e968b"
 metafile = true
 
 [[files]]
+file = "mods/backpacked.pw.toml"
+hash = "5529fab4cd1c7f4bd6ad12cda0196d73cab74f5fb5bda828074897b4ae30f1c5"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
 metafile = true
@@ -109,6 +114,11 @@ hash = "e38d187eefae043e892eb6ce932f5360718d02d71f9e8072e8ec38ec0667753b"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+metafile = true
+
+[[files]]
 file = "mods/display-delight.pw.toml"
 hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
 metafile = true
@@ -131,6 +141,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/framework.pw.toml"
+hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
 metafile = true
 
 [[files]]

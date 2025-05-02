@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 ### Added
+- [Backpacked](https://www.curseforge.com/minecraft/mc-mods/backpacked): Backpacks!
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling): Allows you to search keybinds
 - [Display Delight](https://www.curseforge.com/minecraft/mc-mods/display-delight): Allows placing of all Farmer's Delight items in the world
 - [Friendly Fire](https://www.curseforge.com/minecraft/mc-mods/friendly-fire): A small mod that prevents harming your own pets

@@ -5,6 +5,10 @@ file = "config/alexsmobs.toml"
 hash = "0ef5ef7d60756c998093ccea32065cfde6cabacaa01b760afeb7861b2ddfea80"
 
 [[files]]
+file = "config/backpacked.server.toml"
+hash = "02eae75f965cb0d6ceb6395c5ab2eb0cdbdd51b8d5818900b1d8b6384a79f3ff"
+
+[[files]]
 file = "config/bcc-common.toml"
 hash = "0fa7b9c76ac8a2b2423e6bc8bd9397dff3fa2d1475b92223d525ef03376c17e8"
 
@@ -210,6 +214,11 @@ hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
+file = "mods/backpacked.pw.toml"
+hash = "5529fab4cd1c7f4bd6ad12cda0196d73cab74f5fb5bda828074897b4ae30f1c5"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
 metafile = true
@@ -270,6 +279,11 @@ hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+metafile = true
+
+[[files]]
 file = "mods/display-delight.pw.toml"
 hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
 metafile = true
@@ -297,6 +311,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/framework.pw.toml"
+hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
 metafile = true
 
 [[files]]
