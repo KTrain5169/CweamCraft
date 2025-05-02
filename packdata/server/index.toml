@@ -255,6 +255,11 @@ hash = "c22a242d8faa61fd1b25f89707eff35dff301d6a6b35ffd345220e1a5fd9339d"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "2ae921ae166c3e232197bed464e1fc54b057d9aa9b1efc4db3095bd1a35f05e5"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
