@@ -5,6 +5,10 @@ file = "config/alexsmobs.toml"
 hash = "0ef5ef7d60756c998093ccea32065cfde6cabacaa01b760afeb7861b2ddfea80"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "0fa7b9c76ac8a2b2423e6bc8bd9397dff3fa2d1475b92223d525ef03376c17e8"
+
+[[files]]
 file = "config/friendlyfire.json"
 hash = "2674bbc45aa053bc85e6f51e0f29726781f824806499cee992da43dc2ac2800f"
 
@@ -208,6 +212,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+metafile = true
+
+[[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "a167c88b43b73530c14b77d8cfa8c3546ee665ffa317f0451a6767e46bdae0de"
 metafile = true
 
 [[files]]
