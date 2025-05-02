@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 - [Display Delight](https://www.curseforge.com/minecraft/mc-mods/display-delight): Allows placing of all Farmer's Delight items in the world
 - [Friendly Fire](https://www.curseforge.com/minecraft/mc-mods/friendly-fire): A small mod that prevents harming your own pets
 - [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty): Adds a configurable, togglable overlay to show areas where mobs may spawn at night
+- [Pet Cemetery](https://www.curseforge.com/minecraft/mc-mods/pet-cemetery): On pet death, drops a collar. Using the collar on a charged respawn anchor will respawn your pet in a zombie state, allowing you to cure them the same way you would a zombie villager
 - [Pet Pass](https://www.curseforge.com/minecraft/mc-mods/pet-transfer-trade-your-pets): Allows you to transfer ownership of tameable mobs
 - [WATERFrAMES](https://www.curseforge.com/minecraft/mc-mods/waterframes): Allows for playing of videos inside of Minecraft!
 
