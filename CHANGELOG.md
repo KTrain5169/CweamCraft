@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
+### Added
+- [Friendly Fire](https://www.curseforge.com/minecraft/mc-mods/friendly-fire): A small mod that prevents harming your own pets
 
 ## [1.2.0] - 25-04-10
 ### Removed
