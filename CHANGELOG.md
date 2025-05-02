@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
 ### Added
+- [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty): Adds a configurable, togglable overlay to show areas where mobs may spawn at night
 - [Friendly Fire](https://www.curseforge.com/minecraft/mc-mods/friendly-fire): A small mod that prevents harming your own pets
 
 ## [1.2.0] - 25-04-10
