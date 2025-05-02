@@ -89,6 +89,11 @@ hash = "ab769d9c60cfba798a0538bad596e374dc9c68a9c59ad83684afc66ce4ebfe7f"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+metafile = true
+
+[[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "c22a242d8faa61fd1b25f89707eff35dff301d6a6b35ffd345220e1a5fd9339d"
 metafile = true
@@ -251,6 +256,11 @@ metafile = true
 [[files]]
 file = "mods/railcraft-reborn.pw.toml"
 hash = "0b9cb1dc948413d4c8c16b77307cec4f45c9af9822116beda965c0a15ccf2ac5"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
 
 [[files]]
