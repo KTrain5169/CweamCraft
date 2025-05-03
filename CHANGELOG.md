@@ -13,6 +13,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 - [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty): Adds a configurable, togglable overlay to show areas where mobs may spawn at night
 - [Pet Cemetery](https://www.curseforge.com/minecraft/mc-mods/pet-cemetery): On pet death, drops a collar. Using the collar on a charged respawn anchor will respawn your pet in a zombie state, allowing you to cure them the same way you would a zombie villager
 - [Pet Pass](https://www.curseforge.com/minecraft/mc-mods/pet-transfer-trade-your-pets): Allows you to transfer ownership of tameable mobs
+- [Simple Shops](https://www.curseforge.com/minecraft/mc-mods/simple-shops): Player ran shops! Add items to sell, list a price, ???, profit
 - [WATERFrAMES](https://www.curseforge.com/minecraft/mc-mods/waterframes): Allows for playing of videos inside of Minecraft!
 
 ## [1.2.0] - 25-04-10
