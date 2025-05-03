@@ -25,6 +25,10 @@ file = "config/quark-common.toml"
 hash = "b8705a396a93a8127a571739ed5e047d86911a6a24871eb84240841e313b4467"
 
 [[files]]
+file = "config/simplebackups-common.toml"
+hash = "945581a006209f0f95ee8e68404f82b2ca18bbaa1b52c1c2887e0ae46a18e6a6"
+
+[[files]]
 file = "config/vivecraft-server-config.toml"
 hash = "2af6b1b5b68f9e4d6ff9509c5f769f546b7a6dd8bcbb93a98234a0f346a2982f"
 
@@ -476,6 +480,11 @@ metafile = true
 [[files]]
 file = "mods/serializationisbad.pw.toml"
 hash = "3ecec65e3a2ff50bfe96ba232533ac8117c3644903d0a01d5783c8f0f4baad45"
+metafile = true
+
+[[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "7ae23612abc6bf86cc256a71972a0b7d11be7042e8f3d8cc833e73796be405d0"
 metafile = true
 
 [[files]]
