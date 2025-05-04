@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org).
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling): Allows you to search keybinds
 - [Display Delight](https://www.curseforge.com/minecraft/mc-mods/display-delight): Allows placing of all Farmer's Delight items in the world
 - [Friendly Fire](https://www.curseforge.com/minecraft/mc-mods/friendly-fire): A small mod that prevents harming your own pets
+- [Hourglass](https://www.curseforge.com/minecraft/mc-mods/hourglass): Smooth night transitions, with the speed gradually increasing with each additional player asleep
 - [Immersive Paintings](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings): Allows the use of custom images as paintings
 - [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty): Adds a configurable, togglable overlay to show areas where mobs may spawn at night
 - [Pet Cemetery](https://www.curseforge.com/minecraft/mc-mods/pet-cemetery): On pet death, drops a collar. Using the collar on a charged respawn anchor will respawn your pet in a zombie state, allowing you to cure them the same way you would a zombie villager

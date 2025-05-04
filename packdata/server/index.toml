@@ -366,6 +366,11 @@ hash = "acf1aceab8c44817b0c376a99d2019614e0471d3d1a9cb2f40943fec03f05fbf"
 metafile = true
 
 [[files]]
+file = "mods/hourglass.pw.toml"
+hash = "fbb371c2bb573d6d84600f10937f535b7f19f7df6e536f25b7b4e46471c32904"
+metafile = true
+
+[[files]]
 file = "mods/immersive-optimization.pw.toml"
 hash = "fd729f238b96f0db94e161e1344b082d6812580144e765adccaf7e7fae0d58e6"
 metafile = true
@@ -593,6 +598,10 @@ hash = "b3b4474b939ae754f21f8962b838c79dd942ecf4ed28d5d237752e6a45593fed"
 [[files]]
 file = "world/serverconfig/gravestone-server.toml"
 hash = "8e13311da9b8861ab596080c57ebe48eedfb9d45a28817d7e2af4d5f9aff241b"
+
+[[files]]
+file = "world/serverconfig/hourglass-server.toml"
+hash = "0b1aede18f0f305fbc221602af919ba84eccbd7278131789ec997a1f4f89676f"
 
 [[files]]
 file = "world/serverconfig/journeymap-server.toml"
