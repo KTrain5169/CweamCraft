@@ -26,7 +26,7 @@ hash = "b8705a396a93a8127a571739ed5e047d86911a6a24871eb84240841e313b4467"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "945581a006209f0f95ee8e68404f82b2ca18bbaa1b52c1c2887e0ae46a18e6a6"
+hash = "e1677888261eb15c559b10004ac1469580b4641e4e9e33d2bfcde54cc1e3c8e6"
 
 [[files]]
 file = "config/vivecraft-server-config.toml"
@@ -293,6 +293,11 @@ hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
+file = "mods/dimension-access-manager.pw.toml"
+hash = "952a9c5120f87a850ed26527cbfa1108d9ddd0fab8e2986f84082f0a3e041520"
+metafile = true
+
+[[files]]
 file = "mods/display-delight.pw.toml"
 hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
 metafile = true
@@ -550,6 +555,10 @@ metafile = true
 [[files]]
 file = "scripts/railcraft.zs"
 hash = "dd53340039583f2820d3b0fb785bb4671ba3b3f95643c052884778d9f9061b79"
+
+[[files]]
+file = "world/serverconfig/dimension_access_manager-server.toml"
+hash = "f0a0bc057bde4fca9649484b281eaeafcb602770c6488c93fc4c1244ceab0f1e"
 
 [[files]]
 file = "world/serverconfig/ftbessentials.snbt"
