@@ -25,6 +25,10 @@ file = "config/immersive_paintings.json"
 hash = "cc09b1ccc94ba0026b8c28c2055e59a263194ce21f447250048c36b82a1e6efd"
 
 [[files]]
+file = "config/logprot.json"
+hash = "bd790367512f42f581f12f42213afa80d3eb6f6f90682089adbf5a3c6a8724f2"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "b8705a396a93a8127a571739ed5e047d86911a6a24871eb84240841e313b4467"
 
@@ -399,6 +403,11 @@ metafile = true
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
 hash = "644607a28024fbb4115884962a09cb4621217f652aacd363f7a2df52ddb69862"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.pw.toml"
+hash = "0a96e881040a95b2543d18afc3f9e1727e64659ec1548ed2df4fcd7dafbfbbc7"
 metafile = true
 
 [[files]]
