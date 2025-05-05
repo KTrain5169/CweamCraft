@@ -91,7 +91,7 @@ jobs:
 
       - name: update latest button
         run: |
-          sed -i "s~%LATEST_BUTTON~{% include button.html text=\"CweamCraft-${{ steps.clean-tag.outputs.tag }}.zip 📁\" link=\"https://github.com/${{ github.repository }}/releases/download/${{ steps.previous-tag.outputs.tag }}/CweamCraft-${{ steps.clean-tag.outputs.tag }}.zip\" %}~" public/modpack.md
+          sed -i "s~%LATEST_BUTTON~{% include button.html text=\"CweamCraft-${{ steps.clean-tag.outputs.tag }}.zip 📁\" link=\"https://github.com/${{ github.repository }}/releases/download/${{ steps.previous-tag.outputs.tag }}/CweamCraft-${{ steps.clean-tag.outputs.tag }}.zip\" %}~" public/download.md
 
       - name: copy pack data
         run: |

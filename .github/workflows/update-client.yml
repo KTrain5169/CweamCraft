@@ -162,9 +162,9 @@ jobs:
 
           ${{ steps.release-notes.outputs.notes }}
 
-          {% include button.html text="Download File 📁" link="$link/download/${{ needs.check-new.outputs.new-tag }}/CweamCraft-${{ needs.check-new.outputs.clean-tag }}.zip" %} {% include button.html text="View on GitHub" link="$link/tag/${{ needs.check-new.outputs.new-tag }}" icon="github" color="#59c4be" %}
+          {% include button.html text="Download File 📁" link="/download" %} {% include button.html text="View on GitHub" link="$link/tag/${{ needs.check-new.outputs.new-tag }}" icon="github" color="#59c4be" %}
           EOF
-          sed -i "s~%LATEST_BUTTON~{% include button.html text=\"CweamCraft-${{ needs.check-new.outputs.clean-tag }}.zip 📁\" link=\"$link/download/${{ needs.check-new.outputs.new-tag }}/CweamCraft-${{ needs.check-new.outputs.clean-tag }}.zip\" %}~" public/modpack.md
+          sed -i "s~%LATEST_BUTTON~{% include button.html text=\"CweamCraft-${{ needs.check-new.outputs.clean-tag }}.zip 📁\" link=\"$link/download/${{ needs.check-new.outputs.new-tag }}/CweamCraft-${{ needs.check-new.outputs.clean-tag }}.zip\" %}~" public/download.md
         shell: bash
 
       - name: commit web update
