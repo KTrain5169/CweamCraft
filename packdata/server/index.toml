@@ -54,23 +54,31 @@ hash = "2533beed9b9b5532369eefe02d6bb1cce731a9c65b7885a31213ce983a3f5634"
 
 [[files]]
 file = "dynmap/renderdata/additionalredstone-models.txt"
-hash = "f85e8af1dc14616eeb58adcd91f754695ebec6e433b82ba5ca482d1f80aec3d4"
+hash = "48ac1ccb2b276c2a66bad7c76f272c0a94327738ef48226f3765a2a03e298fa4"
 
 [[files]]
 file = "dynmap/renderdata/additionalredstone-texture.txt"
-hash = "0400138f97183af02c18cc03582d6a12ba6ef910905e911b13d92ca5be1476c5"
+hash = "f8a58f213ec432a7b5d90efccaadfa0c25a803b1db0e669bd18c2ee15bd36672"
 
 [[files]]
 file = "dynmap/renderdata/alexsmobs-models.txt"
-hash = "a3adb8f6d0f60c68de0636807ec6f72b0fd312401b107e7057e6b5877d8a1ce9"
+hash = "87589d779cb379b09c3f956953b177911cf373d0a0cbba1cf30c2c293a4b823c"
 
 [[files]]
 file = "dynmap/renderdata/alexsmobs-texture.txt"
-hash = "427cd4223c6496782fa2bc602ff3fba27b9c9a2323fbafc3b857b2723e99f7ed"
+hash = "b7e1e025e778440d1d50be1d596fcb1b3fa6a000d5c44fc1b7180cb684a0f5b5"
+
+[[files]]
+file = "dynmap/renderdata/backpacked-models.txt"
+hash = "d42f0caf21907627d626fe9ac77b9a2bd53e2b98303570005b8239d0b889c024"
+
+[[files]]
+file = "dynmap/renderdata/backpacked-texture.txt"
+hash = "c4391f96107095f83cdbad70decc3c76bb007fe5fbe0fe84440a318e0d30fa6d"
 
 [[files]]
 file = "dynmap/renderdata/chiselsandbits-models.txt"
-hash = "19b919af6b0ad68a616cf4db401f0fcf9f89c3dee61e019caced095542c0205d"
+hash = "21e6b046b0158be6ceafb1213d8307b8f50c506de0a519d46523b8e1df33e794"
 
 [[files]]
 file = "dynmap/renderdata/chiselsandbits-texture.txt"
@@ -78,23 +86,31 @@ hash = "a74c1dca0e968ca819fb1c6fe7cb340a5d3ccb3ebc45a78e2bb6d17d1d3ff083"
 
 [[files]]
 file = "dynmap/renderdata/citadel-models.txt"
-hash = "91ea9d1ef73cf3471775cabfd3bc1ee418c09af066ede577c105e90936fa5b2c"
+hash = "f0ae67e9db92c9e2f814a0e8b33fcd159fb26ad569e0116308a62946dae94763"
 
 [[files]]
 file = "dynmap/renderdata/citadel-texture.txt"
-hash = "0ca180e9a0f9c8fbe9474888ca0fb97f513bdbf84f2e829903828df462c60142"
+hash = "b5ae13c61cf5c659d41a4c326eab467cd982c804f7d6fc2577b72f5970bcfe21"
+
+[[files]]
+file = "dynmap/renderdata/displaydelight-models.txt"
+hash = "876a10bde0b0723a7268ded9f99237eb684501738515a4da4fcecf857ec21d94"
+
+[[files]]
+file = "dynmap/renderdata/displaydelight-texture.txt"
+hash = "504ad8efa50e87871b43bf3fd6d2d78be263ae0a5f70d05ff2271420151470fa"
 
 [[files]]
 file = "dynmap/renderdata/farmersdelight-models.txt"
-hash = "13d59a2bc30c850006bb1c6154099419721b45276142ccb17842d61b261cc2c5"
+hash = "c991fe5e78492cad9934ed116dc9a4f888cc45e9f4f091a53a45842c1a3e2ea2"
 
 [[files]]
 file = "dynmap/renderdata/farmersdelight-texture.txt"
-hash = "d65ff5c1a2be7bfd864c90eb6619088037ea59f8c12c99e36929ee315ddb90f6"
+hash = "5c2e83434fcfc0c0b7b4fb18ff0d0676bcd95539ba9ff0c2ed38c510e0c2edb9"
 
 [[files]]
 file = "dynmap/renderdata/gravestone-models.txt"
-hash = "8c19af7f6c5f6d936a37607b63f0c15c1479347ccc75139419f5a364a53f8517"
+hash = "32493d36a771df5f608420415124928f7f06aafec787a71647fcbe47febd1295"
 
 [[files]]
 file = "dynmap/renderdata/gravestone-texture.txt"
@@ -110,23 +126,23 @@ hash = "aa37fb127c6ec563b2423b5f37904eb6426e0b162f452427d0d2479426cd7fe2"
 
 [[files]]
 file = "dynmap/renderdata/mcwbridges-models.txt"
-hash = "c7f230aa43947039be7f4eb8e732eb6d634ab9ca082be6a6d761720499e30ebd"
+hash = "eeab49fc5e5982b57c54916d7da7cef5eba3ded8933903a288291b635543982b"
 
 [[files]]
 file = "dynmap/renderdata/mcwbridges-texture.txt"
-hash = "7e8b72e92d99f7c16e9280c50eeb38dcf26d2412f650c6d3f072d089e20713b5"
+hash = "b963449e5af7805f05e0432fb8349bd873105c5fa2feb5bb72aaef4af9e3af49"
 
 [[files]]
 file = "dynmap/renderdata/mcwdoors-models.txt"
-hash = "51499304d5bbb4900aa213f9e3dd0cff042737d1f9de0c2a670a33e9266efa18"
+hash = "3b8ec982ceb33a07a154898eaf168c7e62b472cd8a4fcae0216ceb7c29dc6820"
 
 [[files]]
 file = "dynmap/renderdata/mcwdoors-texture.txt"
-hash = "33e05dd3ff561e83c8a487c283ea07ef7c9a3016e3efb3646c284b4cd4f84348"
+hash = "7729a8b0c978235d484bc2cb1d8f7247fd6093fa6db6dba6554c5c973cc34f65"
 
 [[files]]
 file = "dynmap/renderdata/mcwfurnitures-models.txt"
-hash = "681593511aed472fd9ba774170b5d585113ae580bad679990e903ab07ce7f61e"
+hash = "b8819e57cf0320888f3cd8a1b3467290041ee014b60f1038fbcb64912d0c8e6e"
 
 [[files]]
 file = "dynmap/renderdata/mcwfurnitures-texture.txt"
@@ -134,7 +150,7 @@ hash = "6e71003a0adfc3eed914adc4afaab1736fa5734b791fcf0f98ed649d664b273e"
 
 [[files]]
 file = "dynmap/renderdata/mcwlights-models.txt"
-hash = "4727be4044ffc332603d6a6221abd54d0067e32d8068201f7510712bacbc31ed"
+hash = "f0c009ed0d32ba61c564905ea7645225db6155b086420622f48fad787abea3c5"
 
 [[files]]
 file = "dynmap/renderdata/mcwlights-texture.txt"
@@ -142,7 +158,7 @@ hash = "85ed6bde609d6b905497dcd3b12fa3f2cfc94dec5cc96e42a3aa103f427c1759"
 
 [[files]]
 file = "dynmap/renderdata/mcwpaths-models.txt"
-hash = "95f4d1da68a8c2628ce64b58fdfeebc02e2161777567136e43b6ff7f2cf866fa"
+hash = "93bb7b50fb334a2ca64670d015c0fac561b453727b76bb68b6af93a1540d5ae3"
 
 [[files]]
 file = "dynmap/renderdata/mcwpaths-texture.txt"
@@ -150,15 +166,15 @@ hash = "0e82c50f95e4608b71329ec49693f7700cfef3328aab127fba09e7f0e55180a6"
 
 [[files]]
 file = "dynmap/renderdata/mcwroofs-models.txt"
-hash = "36a151dba0ef13bc04b87db008ffcac1df767e53f566be9cdda6b72dcc52e541"
+hash = "c22f7079ccce8de58616b48f723e960c6bb11017e1414a49f6258d405fb36635"
 
 [[files]]
 file = "dynmap/renderdata/mcwroofs-texture.txt"
-hash = "fed40944aae14dd62223ba6bf7b7facbcebdf52fba459a8ae67d17aefd1b5cef"
+hash = "92ab19ff015096421e3b16c22c0e284923bb17bb877245aa973e1a1c643cb380"
 
 [[files]]
 file = "dynmap/renderdata/mcwstairs-models.txt"
-hash = "4706623293dcc4ab20e52e2aebf90e17455fe9d9e5f83b3e9387a1d2435e1f2b"
+hash = "1685f8850e5981e0858a57285efcafe677991e98d8d60e11c9d6b14ec9fd0881"
 
 [[files]]
 file = "dynmap/renderdata/mcwstairs-texture.txt"
@@ -166,11 +182,11 @@ hash = "86d3c9333609c262b389bbc015c24248d2bfc90ed2438fdf2030b21f1a40bce9"
 
 [[files]]
 file = "dynmap/renderdata/mcwwindows-models.txt"
-hash = "2b8228417a20583905d7182d6b3a5a35b677d15029bd71b1e53eda455d1184e4"
+hash = "9f26cfc490b7cc9824a330563e4cd854ad0f4963683d74ec8a8810984056f97c"
 
 [[files]]
 file = "dynmap/renderdata/mcwwindows-texture.txt"
-hash = "53e443e1ff470f4ce5469dd6b337efadda1317a483c928fd8d3dc7cd5eee0d4d"
+hash = "275b74d112a945ad945609f06c0ba32d704dd0467c7a721cbdd67a92d4608db8"
 
 [[files]]
 file = "dynmap/renderdata/quark-models.txt"
@@ -182,15 +198,31 @@ hash = "e001ec7001c100fad83f3d220b685f20eff66034ebcc3969c344de48238c388b"
 
 [[files]]
 file = "dynmap/renderdata/railcraft-models.txt"
-hash = "6096adc2440d1589737b2f89e2aa5a32af8aec9bcb480f61da1c9ef05796d3d0"
+hash = "1adb7b91548cc1f4e3bb02051c20e068a54bf2f9ff308a7b4601ce02df637880"
 
 [[files]]
 file = "dynmap/renderdata/railcraft-texture.txt"
-hash = "04e70e8a12f9ed82caa3010d13eec424010df9238ba4d541b6bf435e5e1ac1f9"
+hash = "b2b42c1412572643f764bede1a94921f06e16fc72c6e3f38834793c841dd273c"
+
+[[files]]
+file = "dynmap/renderdata/simpleshops-models.txt"
+hash = "2a0c05107bf43cdf4d9c53b09e318ff3caf5f224a0253729325da88a44e7ad2f"
+
+[[files]]
+file = "dynmap/renderdata/simpleshops-texture.txt"
+hash = "dd60f87826e142df905d0e57196fe732261c048eb6bbd2312536f67fa9fdf5cd"
+
+[[files]]
+file = "dynmap/renderdata/waterframes-models.txt"
+hash = "746e9bb2fa49cabff706bba76afa0299799ff2cc654b4731110f4216cb60d002"
+
+[[files]]
+file = "dynmap/renderdata/waterframes-texture.txt"
+hash = "5ec70f17e22847ee9b36781ff40d2073f8886b3e68c8d0dcb55feffda02af8be"
 
 [[files]]
 file = "dynmap/renderdata/waystones-models.txt"
-hash = "54a91a15781bcb7d648b11eae6879631867717bd5cf72e1bcad8f76b87ac88a6"
+hash = "1d93bc8748015f213d3b8172256af668ea20e517b82132cc204e481d225f2a1f"
 
 [[files]]
 file = "dynmap/renderdata/waystones-texture.txt"
