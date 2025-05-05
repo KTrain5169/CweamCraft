@@ -5,6 +5,18 @@ file = "config/bcc-common.toml"
 hash = "0fa7b9c76ac8a2b2423e6bc8bd9397dff3fa2d1475b92223d525ef03376c17e8"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "29e7cb04bc4f7dcf70e5352182bff7bd064ac604bf354d5b89de56dd55c38be9"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "66ea1e41d2e828885647def7ca7cff2f2528a1a790d8eaa315a324f0ec176327"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "d85bc6ba4c3bb870ec48d94c71cdc4629382724fb22bd1f6c7d890cab89c5d8b"
+
+[[files]]
 file = "config/emojiful-client.toml"
 hash = "d1475ba8120de5c3d68cb93d3751a54811b16a22833421f6b6d548b67028803c"
 
@@ -126,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
 metafile = true
 
 [[files]]
