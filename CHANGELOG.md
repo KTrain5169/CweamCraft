@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
+
+## [1.3.0] - 25-05-05
 ### Added
 - [Backpacked](https://www.curseforge.com/minecraft/mc-mods/backpacked): Backpacks!
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling): Allows you to search keybinds
@@ -39,7 +41,8 @@ This project adheres to [Semantic Versioning](https://semver.org).
 ## [1.0.0] - 25-03-23
 Initial release
 
-[Unreleased]: https://github.com/CPU-Blanc/CweamCraft/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/CPU-Blanc/CweamCraft/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/CPU-Blanc/CweamCraft/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/CPU-Blanc/CweamCraft/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/CPU-Blanc/CweamCraft/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/CPU-Blanc/CweamCraft/tree/v1.0.0
