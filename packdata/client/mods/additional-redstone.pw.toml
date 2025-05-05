@@ -1,13 +1,13 @@
 name = "Additional Redstone"
-filename = "additionalredstone-forge-1.20.1-1.1.0.jar"
+filename = "additionalredstone-forge-1.20.1-1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ade10809c1a2ff5dd3fb388b645cdfa926464a09"
+hash = "81565c8a0942ccec429ae821be9112233a69d618"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4619984
+file-id = 6463959
 project-id = 455373

@@ -62,7 +62,7 @@ hash = "47017b5a27eef8d3ab3f94e7dbb31f51cda71a052e6b9160966b7e7376920e7b"
 
 [[files]]
 file = "mods/additional-redstone.pw.toml"
-hash = "e6f1378edbd3c14377c457532b91520e3a592fc5443e852ad58bac67872d25c0"
+hash = "1847511b79dda27ac4483b3fbb9dd2a27d08ad177d3910ee70875c54f194c8d9"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "415c1bb058287bd60abb4ffc9210963699259862e32b039ececf3c0b497e968b"
+hash = "e5ebb747553799e65aa1a2222ea07e24a151f269e1388c4726b752c098b43fee"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-roofs.pw.toml"
-hash = "fbb984a9f19934ccba273c93d203a3d9d623b2016b1c8c8af340b717910ca070"
+hash = "6445161fb93a765e776f97573a32af44d0615133b76f33d56da1b842eb5fc377"
 metafile = true
 
 [[files]]
