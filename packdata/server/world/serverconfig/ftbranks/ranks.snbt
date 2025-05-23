@@ -239,7 +239,7 @@
         }
         builder: {
                 name: "Builder"
-                power: 60
+                power: 40
                 "command./": true
                 "command./.args": true
                 "command./br": true
@@ -446,5 +446,8 @@
                 "command./watchdog.args": true
                 "command./world": true
                 "command./world.args": true
+                command.fly: true
+                command.give: true
+                command.god: true
         }
 }

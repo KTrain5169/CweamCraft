@@ -621,11 +621,11 @@ hash = "8172f1e5efbdb00cff632bc2d36b3d30cbc4f3ef5b6c0f5a1c165b60b8e2f0dd"
 
 [[files]]
 file = "world/serverconfig/ftbranks/players.snbt"
-hash = "7c977eeea0fee8f5d519b8f446f1a5585a77a44d1ba3dbfe3828ed5996a382d3"
+hash = "0ac932966f949a01823f28e65bdb46e80406e19a5fcee2a1eddddcf98f6c4861"
 
 [[files]]
 file = "world/serverconfig/ftbranks/ranks.snbt"
-hash = "b3b4474b939ae754f21f8962b838c79dd942ecf4ed28d5d237752e6a45593fed"
+hash = "0fe74ee3b51ef1712ca19cf1cbc22affc908831db24def25b48e54f246fb226e"
 
 [[files]]
 file = "world/serverconfig/gravestone-server.toml"
