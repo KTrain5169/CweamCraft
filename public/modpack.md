@@ -8,10 +8,10 @@ You can either download the Prism instance, or the standalone modpack. The Prism
 The standalone modpack will need to be manually downloaded on each modpack update, but is compatible with Curseforge.
 
 ###### Download the Prism instance (auto-updating)
-{% include button.html text="CweamCraft.zip 📁" link="/download" %}
+{% include button.html text="CweamCraft.zip 📁" link="/assets/CweamCraft.zip" %}
 
 ###### Download the latest standalone release
-{% include button.html text="CweamCraft-1.3.0.zip 📁" link="/download" %}
+%LATEST_BUTTON
 
 # Installation
 ### Prism Launcher
