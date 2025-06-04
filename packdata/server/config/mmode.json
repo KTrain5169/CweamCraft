@@ -1,5 +1,5 @@
 {
-	"enabled": true,
+	"enabled": false,
 	"doBackup": false,
 	"message": "The server is currently undergoing maintenance! Check the discord or status site for details",
 	"motd": "This server is currently undergoing maintenance!",
