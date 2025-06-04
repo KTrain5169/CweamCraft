@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "0fa7b9c76ac8a2b2423e6bc8bd9397dff3fa2d1475b92223d525ef03376c17e8"
+hash = "939ef6ec5a872219b0f0e36313b9518bb00605c6f595a974f9614ac529786781"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+hash = "bfade58ee8b965486ddcd2853524f3feff40b24d830f2d371b8609217e3bedff"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
+hash = "fa6e35c376181fa82ad33b9cb4c20382a0effd7eb09a06107dcc884b98f49ff2"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
+hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
+hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
 metafile = true
 
 [[files]]
@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
-hash = "a4ff567d52fe55984cc0cb93430a4c8f01dc00b14fbd6e25a077dbd179f534fb"
+hash = "48b6be3ef711114f233e0c36d7f625b1e42c247c3e78a51fd7498886657a2384"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-lights-and-lamps.pw.toml"
-hash = "69cee636ccc8f669dd9c157ef44b6072465fe4c35b82965046bcc4647d8b820e"
+hash = "8d07ba2c02764a5b03a075960474d13233fbe9c4140ce2a3ff052734131b00bb"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
+hash = "6d67f3ac8920ae6bc778bb51ce44a9f0ed0b5f81df3b9213f130542610122921"
 metafile = true
 
 [[files]]
@@ -387,7 +387,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "79410bb7c19d56a75b324e27d32192e1d239385f77db26140fa54f3974e6b25f"
+hash = "2f562cf0b6de7d08ede7aed8065dabcb9ba5a8ce376465f6fd39d722b88aea00"
 metafile = true
 
 [[files]]
