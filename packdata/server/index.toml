@@ -29,6 +29,10 @@ file = "config/logprot.json"
 hash = "bd790367512f42f581f12f42213afa80d3eb6f6f90682089adbf5a3c6a8724f2"
 
 [[files]]
+file = "config/mmode.json"
+hash = "66b219b4ff7757017ccecbf358608f5135832b2d360e7dda7d9a3b526a1c9b66"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "b8705a396a93a8127a571739ed5e047d86911a6a24871eb84240841e313b4467"
 
@@ -227,6 +231,10 @@ hash = "1d93bc8748015f213d3b8172256af668ea20e517b82132cc204e481d225f2a1f"
 [[files]]
 file = "dynmap/renderdata/waystones-texture.txt"
 hash = "1772aec634608716789c35c19ece40de8d66f75915cf8bde30fc02a1687f6c64"
+
+[[files]]
+file = "maintenance.png"
+hash = "5c2e1fe193220f54fb21e8c2a1dd56fd08e9ceee4aef4061a9ce0905f45516d5"
 
 [[files]]
 file = "mods/SimpleDiscordLink-Universal-3.3.1-custom.jar"
@@ -490,6 +498,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "02a961f55839346fcef6cca287a27cc1532f0761735a9ff2712a3efe0e4489fe"
+metafile = true
+
+[[files]]
+file = "mods/maintenance-mode-forge-fabric-quilt.pw.toml"
+hash = "421ae73f3d143681f4b527256020513f021e37616ff6eb1aa731ae2ad7f6842a"
 metafile = true
 
 [[files]]
