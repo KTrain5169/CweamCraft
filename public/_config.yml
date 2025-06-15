@@ -29,20 +29,8 @@ paginate_path: announcements/page:num
 navigation_header:
 - title: Home
   url: /
-- title: Modpack
-  url: /modpack/
-- title: Announcements
-  url: /announcements/
-- title: Events
-  url: /events/
-- title: Live Map
-  url: https://map.cweamcraft.net
-- title: Report a Bug
-  url: https://github.com/CPU-Blanc/CweamCraft/issues
 
 navigation_footer:
-- title: Server status
-  url: "https://status.cpublanc.dev/status/cweamcraft"
 - title: View source code
   url: "https://github.com/CPU-Blanc/CweamCraft"
 
