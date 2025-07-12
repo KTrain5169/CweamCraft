@@ -1,0 +1,43 @@
+---
+title: false
+styles: true
+---
+
+// Background colours
+$backgroundColour: #ffffff !default;
+$codeBackgroundColour: #fafafa !default;
+$featureBackgroundColour: #f9fafa !default;
+$accentColour: #c5b4d6 !default;
+
+// Text colours
+$headingColour: #acb0da !default;
+$bodyColour: #384743 !default;
+$linkColour: #c5b4d6 !default;
+$hoverColour: #fee0e8 !default;
+$focusColour: #fa407a !default;
+$captionColour: #c6c9f0 !default;
+$white: #ffffff !default;
+
+// Typography
+$bodytype: (
+  font-family: "Boogaloo, serif",
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75
+) !default;
+
+$headingtype: (
+  font-family: '"Chewy", serif',
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75
+) !default;
+
+$monospacetype: (
+  font-family: "Menlo, monospace",
+  regular: 400,
+  cap-height: 0.68
+) !default;
+
+@import "alembic";

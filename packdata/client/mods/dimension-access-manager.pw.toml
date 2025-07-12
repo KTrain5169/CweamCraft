@@ -1,0 +1,13 @@
+name = "Dimension Access Manager"
+filename = "DimensionAccessManager-1.20.1-3.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2a6d52a75996918061af7305951007a9e0e27ec8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4701860
+project-id = 388197

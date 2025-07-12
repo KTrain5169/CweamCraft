@@ -1,0 +1,14 @@
+modname:lootr
+
+modellist:id=%lootr_barrel,state=facing:north/open:true
+modellist:id=%lootr_barrel,state=facing:north/open:false
+modellist:id=%lootr_barrel,state=facing:east/open:true
+modellist:id=%lootr_barrel,state=facing:east/open:false
+modellist:id=%lootr_barrel,state=facing:south/open:true
+modellist:id=%lootr_barrel,state=facing:south/open:false
+modellist:id=%lootr_barrel,state=facing:west/open:true
+modellist:id=%lootr_barrel,state=facing:west/open:false
+modellist:id=%lootr_barrel,state=facing:up/open:true
+modellist:id=%lootr_barrel,state=facing:up/open:false
+modellist:id=%lootr_barrel,state=facing:down/open:true
+modellist:id=%lootr_barrel,state=facing:down/open:false

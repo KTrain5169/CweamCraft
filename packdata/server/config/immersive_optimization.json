@@ -1,0 +1,35 @@
+{
+  "_documentation": "https://github.com/Luke100000/ImmersiveOptimization/blob/1.20.1/common/src/main/java/net/conczin/immersive_optimization/config/Config.java",
+  "enableEntities": true,
+  "enableBlockEntities": true,
+  "enableDistanceCulling": true,
+  "enableViewportCulling": true,
+  "minDistance": 12,
+  "blocksPerLevel": 128,
+  "blocksPerLevelDistanceCulled": 20,
+  "blocksPerLevelViewportCulled": 40,
+  "maxLevel": 10,
+  "blocksPerLevelBlockEntities": 32,
+  "entityTickBudget": 30.0,
+  "stressedThreshold": 45,
+  "dimensions": {
+    "minecraft:overworld": true,
+    "minecraft:the_nether": true,
+    "minecraft:the_end": true
+  },
+  "entities": {
+    "fromanotherworld:starship": false,
+    "minecraft:player": false,
+    "minecraft:arrow": false,
+    "minecraft:ender_dragon": false,
+    "alexsmobs:bald_eagle": false,
+    "minecraft:warden": false,
+    "minecraft:tnt": false,
+    "minecraft:tnt_minecart": false,
+    "railcraft": false,
+    "minecraft:minecart": false,
+    "minecraft:chest_minecart": false
+  },
+  "version": 2,
+  "name": "immersive_optimization"
+}

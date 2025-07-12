@@ -1,0 +1,21 @@
+{
+	"enabled": false,
+	"doBackup": false,
+	"message": "The server is currently undergoing maintenance! Check the discord or status site for details",
+	"motd": "This server is currently undergoing maintenance!",
+	"maintenanceIcon": "maintenance.png",
+	"schedule": {
+		"startTime": "",
+		"endTime": "",
+		"disableOnRestart": false,
+		"maintanceNotifyMessage": "Maintenance is starting in %s minute(s)"
+	},
+	"kickOnlinePlayers": true,
+	"configVersion": 2,
+	"allowedUsers": [
+		{
+			"name": "CPU_Blanc",
+			"uuid": "04b330c6-26c5-4bf2-8e37-129644c06320"
+		}
+	]
+}
